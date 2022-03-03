@@ -11,7 +11,7 @@ services:
   mongo-express:
     image: mongo-express
     ports:
-     - 8080:8081
+     - 7999:8081
     restart: always
     environment:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
